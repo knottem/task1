@@ -20,7 +20,8 @@ public class Tools {
             liquid = (Math.round(convertLToCl(plant.calculateLiquid())) + " CL ");
         }
 
-        JOptionPane.showMessageDialog(null, "Din planta " + plant.getName() + " behöver dagligen:\n" + liquid + (plant.getLiquidType()));
+        JOptionPane.showMessageDialog(null, "Planta: " + plant.getName() + "\nTyp: " +  plant.getTypes()
+                                            + "\nbehöver dagligen:\n" + liquid + (plant.getLiquidType()));
     }
 
    protected int optionsMessage(String question, String option1, String option2, String option3){
