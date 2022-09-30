@@ -24,7 +24,7 @@ public class Program extends Window{
 
         do {
 
-            //askWindow(plantorna);
+            askWindow(plantorna);
             rerun = showWindow(plantorna);
 
         }while(rerun == 1);
