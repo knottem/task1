@@ -2,7 +2,7 @@ package Plants;
 
 public class Cactus extends Plants implements Tools {
 
-    double liquid = 0.02;
+    private double liquid = 0.02;
 
     public Cactus(String name, double heightcm) {
         super(name, heightcm);

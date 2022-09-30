@@ -2,7 +2,7 @@ package Plants;
 
 public class Palmtree extends Plants implements Tools {
 
-    double liquid = 0.5;
+    private double liquid = 0.5;
 
     public Palmtree(String name, double heightcm) {
         super(name, heightcm);

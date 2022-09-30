@@ -3,12 +3,12 @@ package Plants;
 public class Carnivorousplant extends Plants implements Tools {
 
 
-    double protein = 0.2;
+    private double protein = 0.2;
 
     public Carnivorousplant(String name, double heightcm) {
         super(name, heightcm);
         types = "Köttätandeväxt";
-        liquidType = "Proteindryck";
+        liquidType = "Protein dryck";
     }
 
     @Override

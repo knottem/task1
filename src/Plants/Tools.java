@@ -9,7 +9,7 @@ public interface Tools {
         return converted;
     }
 
-    static void joptShowMessage(Plants plant){
+    static void showMessage(Plants plant){
 
         String liquid;
 

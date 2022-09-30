@@ -6,15 +6,14 @@ import Plants.Palmtree;
 import Plants.Plants;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class Program extends Window{
 
-
+    protected List<Plants> plantorna = new ArrayList<>();
 
     public Program() {
-
-        ArrayList<Plants> plantorna = new ArrayList<>();
 
         plantorna.add(new Cactus("Igge", 20));
         plantorna.add(new Carnivorousplant("Meatloaf", 70));

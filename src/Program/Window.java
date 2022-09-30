@@ -3,21 +3,31 @@ package Program;
 import Plants.*;
 
 import javax.swing.*;
-import java.util.ArrayList;
+import java.util.List;
 
 public class Window implements Tools {
 
-    public void askWindow(ArrayList<Plants> plantorna){
+
+    public void askWindow(List<Plants> plantorna){
 
         while(true) {
             int answer = JOptionPane.showConfirmDialog(null, "Hej vill du lägga till en planta eller använda dem som redan finns?\n YES för att lägga till, NO för att gå till nuvarande listan","Title", JOptionPane.YES_NO_OPTION);
                 if(answer == 0){
+
                     String name = JOptionPane.showInputDialog(null,"Vad heter Plantan?");
-                    double height = Double.parseDouble(JOptionPane.showInputDialog(null, "Hur hög är plantan i cm?"));
-                        if(height <= 0){
-                            JOptionPane.showMessageDialog(null, "Plantan kan inte vara 0 cm eller negativt value");
-                            continue;
-                        }
+
+                    double height;
+                    try {
+                        height = Double.parseDouble(JOptionPane.showInputDialog(null, "Hur hög är plantan i cm?"));
+                    }catch (NumberFormatException e){
+                        JOptionPane.showMessageDialog(null, "Du måste lägga in ett value");
+                        continue;
+                    }
+
+                    if(height <= 0){
+                        JOptionPane.showMessageDialog(null, "Plantan kan inte vara 0 cm eller negativt value");
+                        continue;
+                    }
 
                     String[] plantType = new String[]{"Kaktus", "Köttätandeväxt", "Palm"};
                     Object choice = JOptionPane.showInputDialog(null, "Välj Planttypen", "Plantväljare", JOptionPane.QUESTION_MESSAGE, null, plantType, plantType[0]);
@@ -31,14 +41,20 @@ public class Window implements Tools {
                         else if(choice == "Palm"){
                             plantorna.add(new Palmtree(name, height));
                         }
+                        else{
+                            System.exit(0);
+                        }
+                }
+                else if(answer == 1){
+                    break;
                 }
                 else{
-                    break;
+                    System.exit(0);
                 }
         }
     }
 
-    public int showWindow(ArrayList<Plants> plantorna){
+    public int showWindow(List<Plants> plantorna){
 
         int rerun = 0;
 
@@ -55,7 +71,7 @@ public class Window implements Tools {
 
             for (int i = 0; i < plantorna.size(); i++) {
                 if (choice == plants[i]) {
-                    Tools.joptShowMessage(plantorna.get(i));
+                    Tools.showMessage(plantorna.get(i));
                 }
             }
 
