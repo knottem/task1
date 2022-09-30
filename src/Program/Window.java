@@ -71,11 +71,11 @@ public class Window implements Tools {
 
             for (int i = 0; i < plantorna.size(); i++) {
                 if (choice == plants[i]) {
-                    Tools.showMessage(plantorna.get(i));
+                    showMessage(plantorna.get(i));
                 }
             }
 
-            int answer = Tools.optionsMessage("Kör Programmet igen?","Kör listan igen", "Kör hela programmet igen", "Quit");
+            int answer = optionsMessage("Kör Programmet igen?","Kör listan igen", "Kör hela programmet igen", "Quit");
             if(answer == -1){
                 System.exit(0);
             }
