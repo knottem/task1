@@ -5,7 +5,7 @@ import Plants.*;
 import javax.swing.*;
 import java.util.List;
 
-public class Window implements Tools {
+public class Window extends Tools{
 
 
     public void askWindow(List<Plants> plantorna){
@@ -29,13 +29,13 @@ public class Window implements Tools {
                         continue;
                     }
 
-                    String[] plantType = new String[]{"Kaktus", "Köttätandeväxt", "Palm"};
-                    Object choice = JOptionPane.showInputDialog(null, "Välj Planttypen", "Plantväljare", JOptionPane.QUESTION_MESSAGE, null, plantType, plantType[0]);
+                    String[] plantType = new String[]{"Kaktus", "Köttätande växt", "Palm"};
+                    Object choice = JOptionPane.showInputDialog(null, "Välj Plant typen", "Plant väljare", JOptionPane.QUESTION_MESSAGE, null, plantType, plantType[0]);
 
                         if(choice == "Kaktus"){
                             plantorna.add(new Cactus(name, height));
                         }
-                        else if(choice == "Köttätandeväxt"){
+                        else if(choice == "Köttätande växt"){
                             plantorna.add(new Carnivorousplant(name, height));
                         }
                         else if(choice == "Palm"){
@@ -67,7 +67,7 @@ public class Window implements Tools {
                 plants[i] = test;
             }
 
-            Object choice = JOptionPane.showInputDialog(null, "Välj Plantan", "Plantväljare", JOptionPane.QUESTION_MESSAGE, null, plants, plants[0]);
+            Object choice = JOptionPane.showInputDialog(null, "Välj Plantan", "Plant väljare", JOptionPane.QUESTION_MESSAGE, null, plants, plants[0]);
 
             for (int i = 0; i < plantorna.size(); i++) {
                 if (choice == plants[i]) {
@@ -76,11 +76,9 @@ public class Window implements Tools {
             }
 
             int answer = optionsMessage("Kör Programmet igen?","Kör listan igen", "Kör hela programmet igen", "Quit");
+            
             if(answer == -1){
                 System.exit(0);
-            }
-            else if(answer == 0){
-                continue;
             }
             else if(answer == 1){
                 rerun = 1;

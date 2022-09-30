@@ -1,9 +1,9 @@
 package Plants;
 
-public class Carnivorousplant extends Plants implements Tools {
+public class Carnivorousplant extends Plants implements PlantsInterface {
 
 
-    private double protein = 0.2;
+    final double protein = 0.2;
 
     public Carnivorousplant(String name, double heightcm) {
         super(name, heightcm);
@@ -13,8 +13,7 @@ public class Carnivorousplant extends Plants implements Tools {
 
     @Override
     public double calculateLiquid() {
-        double amount = 0.1 + (protein * (height / 100));
-        return amount;
+        return 0.1 + (protein * (height / 100));
     }
 
 }

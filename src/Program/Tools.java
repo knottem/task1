@@ -1,15 +1,15 @@
-package Plants;
+package Program;
 
+import Plants.Plants;
 import javax.swing.*;
 
-public interface Tools {
+public class Tools {
 
-    static double convertLToCl(double amount){
-        double converted = amount * 100;
-        return converted;
+    protected double convertLToCl(double amount){
+        return amount * 100;
     }
 
-    default void showMessage(Plants plant){
+    protected void showMessage(Plants plant){
 
         String liquid;
 
@@ -20,11 +20,10 @@ public interface Tools {
             liquid = (Math.round(convertLToCl(plant.calculateLiquid())) + " CL ");
         }
 
-            JOptionPane.showMessageDialog(null, "Din planta " + plant.getName() + " behöver dagligen:\n"
-                    + liquid + (plant.getLiquidType()));
+        JOptionPane.showMessageDialog(null, "Din planta " + plant.getName() + " behöver dagligen:\n" + liquid + (plant.getLiquidType()));
     }
 
-    default int optionsMessage(String question, String option1, String option2, String option3){
+   protected int optionsMessage(String question, String option1, String option2, String option3){
 
         Object[] options = { option1, option2, option3};
         return JOptionPane.showOptionDialog(null, question,"Title", JOptionPane.YES_NO_OPTION,JOptionPane.PLAIN_MESSAGE,null, options, null);

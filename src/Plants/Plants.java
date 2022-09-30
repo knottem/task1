@@ -1,6 +1,6 @@
 package Plants;
 
-public abstract class Plants implements Tools {
+public abstract class Plants implements PlantsInterface {
 
     protected double height;
     protected String name;
@@ -26,9 +26,5 @@ public abstract class Plants implements Tools {
     }
 
     public String getTypes(){ return types;}
-
-    public double calculateLiquid(){
-        return 0;
-    }
 
 }
