@@ -13,7 +13,7 @@ public class Tools {
 
         String liquid;
 
-        if(plant.calculateLiquid() > 1){
+        if(plant.calculateLiquid() >= 1){
             liquid = (plant.calculateLiquid() + " Liter ");
         }
         else{
