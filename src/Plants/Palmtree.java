@@ -15,6 +15,4 @@ public class Palmtree extends Plants implements PlantsInterface {
         return liquid*(height/100);
     }
 
-
-
 }
