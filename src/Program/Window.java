@@ -12,7 +12,8 @@ public class Window extends Tools{
     public void askWindow(List<Plants> plantorna){
 
         while(true) {
-            int answer = JOptionPane.showConfirmDialog(null, "Hej vill du lägga till en planta eller använda dem som redan finns?\n YES för att lägga till, NO för att gå till nuvarande listan","Title", JOptionPane.YES_NO_OPTION);
+            int answer = optionsMessage("Plant väljare","Vad vill du göra?", "Lägga till planta?","Ta bort planta?", "Visa plantorna");
+            //int answer = JOptionPane.showConfirmDialog(null, "Hej vill du lägga till en planta eller använda dem som redan finns?\n YES för att lägga till, NO för att gå till nuvarande listan","Title", JOptionPane.YES_NO_OPTION);
                 if(answer == 0){
 
                     String name = JOptionPane.showInputDialog(null,"Vad heter Plantan?");
@@ -46,9 +47,13 @@ public class Window extends Tools{
                         }
                 }
                 else if(answer == 1){
+                    int i = questionMessage(plantorna);
+                    plantorna.remove(i);
+                }
+                else if(answer == 2){
                     break;
                 }
-                else{
+                else if(answer == -1){
                     System.exit(0);
                 }
         }
@@ -60,22 +65,10 @@ public class Window extends Tools{
 
         while (true) {
 
-            String[] plants = new String[plantorna.size()];
+            int i = questionMessage(plantorna);
+            showMessage(plantorna.get(i));
 
-            for (int i = 0; i < plantorna.size(); i++) {
-                String test = plantorna.get(i).getName() + " - " + plantorna.get(i).getTypes();
-                plants[i] = test;
-            }
-
-            Object choice = JOptionPane.showInputDialog(null, "Välj Plantan", "Plant väljare", JOptionPane.QUESTION_MESSAGE, null, plants, plants[0]);
-
-            for (int i = 0; i < plantorna.size(); i++) {
-                if (choice == plants[i]) {
-                    showMessage(plantorna.get(i));
-                }
-            }
-
-            int answer = optionsMessage("Kör Programmet igen?","Kör listan igen", "Kör hela programmet igen", "Quit");
+            int answer = optionsMessage("Title","Kör Programmet igen?","Kör listan igen", "Kör hela programmet igen", "Quit");
             
             if(answer == -1){
                 System.exit(0);

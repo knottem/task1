@@ -8,14 +8,11 @@ public abstract class Plants implements PlantsInterface {
     protected String liquidType;
 
 
-    public Plants(String name, double heightcm) {
+    public Plants(String name, double heightCm) {
         this.name = name;
-        this.height = heightcm;
+        height = heightCm;
     }
 
-    public double getHeight() {
-        return height;
-    }
 
     public String getName() {
         return name;

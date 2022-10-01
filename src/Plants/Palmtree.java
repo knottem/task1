@@ -4,8 +4,8 @@ public class Palmtree extends Plants implements PlantsInterface {
 
     final double liquid = 0.5;
 
-    public Palmtree(String name, double heightcm) {
-        super(name, heightcm);
+    public Palmtree(String name, double heightCm) {
+        super(name, heightCm);
         types = "Palm";
         liquidType = "Kranvatten";
     }

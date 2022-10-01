@@ -5,8 +5,8 @@ public class Carnivorousplant extends Plants implements PlantsInterface {
 
     final double protein = 0.2;
 
-    public Carnivorousplant(String name, double heightcm) {
-        super(name, heightcm);
+    public Carnivorousplant(String name, double heightCm) {
+        super(name, heightCm);
         types = "Köttätandeväxt";
         liquidType = "Protein dryck";
     }
