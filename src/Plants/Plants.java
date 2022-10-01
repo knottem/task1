@@ -18,6 +18,10 @@ public abstract class Plants implements PlantsInterface {
         return name;
     }
 
+    public double getHeight(){
+        return height;
+    }
+
     public String getLiquidType() {
         return liquidType;
     }

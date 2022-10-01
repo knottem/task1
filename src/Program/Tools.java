@@ -2,9 +2,12 @@ package Program;
 
 import Plants.Plants;
 import javax.swing.*;
+import java.text.DecimalFormat;
 import java.util.List;
 
 public class Tools {
+
+    DecimalFormat decimalFormat = new DecimalFormat("#.00");
 
    protected double convertLToCl(double amount){
         return amount * 100;
@@ -13,16 +16,23 @@ public class Tools {
    protected void showMessage(Plants plant){
 
         String liquid;
+        String height;
 
-        if(plant.calculateLiquid() >= 1){
-            liquid = (plant.calculateLiquid() + " Liter ");
-        }
-        else{
-            liquid = (Math.round(convertLToCl(plant.calculateLiquid())) + " CL ");
-        }
+       if(plant.calculateLiquid() >= 1){
+            liquid = (decimalFormat.format(plant.calculateLiquid()) + " Liter ");
+       }
+       else{
+            liquid = (decimalFormat.format(convertLToCl(plant.calculateLiquid())) + " CL ");
+       }
+       if(plant.getHeight() >= 100){
+           height = ((plant.getHeight()/100) + " m");
+       }
+       else{
+           height = (plant.getHeight() + " cm");
+       }
 
-        JOptionPane.showMessageDialog(null, "Planta: " + plant.getName() + "\nTyp: " +  plant.getTypes()
-                                            + "\nbehöver dagligen:\n" + liquid + (plant.getLiquidType()));
+       JOptionPane.showMessageDialog(null, "Planta: " + plant.getName() + "\nTyp: " +  plant.getTypes()
+               + "\nHöjd: "+  height + "\nbehöver dagligen:\n" + liquid + (plant.getLiquidType()));
     }
 
    protected int optionsMessage(String Title, String question, String option1, String option2, String option3){
