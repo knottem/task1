@@ -6,11 +6,11 @@ import java.util.List;
 
 public class Tools {
 
-    protected double convertLToCl(double amount){
+   protected double convertLToCl(double amount){
         return amount * 100;
     }
 
-    protected void showMessage(Plants plant){
+   protected void showMessage(Plants plant){
 
         String liquid;
 
@@ -31,7 +31,7 @@ public class Tools {
         return JOptionPane.showOptionDialog(null, question,Title, JOptionPane.YES_NO_OPTION,JOptionPane.PLAIN_MESSAGE,null, options, null);
     }
 
-    protected int questionMessage(List<Plants> plantorna){
+   protected int questionMessage(List<Plants> plantorna){
         String[] plants = new String[plantorna.size()];
 
         for (int i = 0; i < plantorna.size(); i++) {
@@ -48,6 +48,6 @@ public class Tools {
             }
         }
         return j;
-    }
+   }
 
 }
