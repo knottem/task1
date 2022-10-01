@@ -7,6 +7,7 @@ import java.util.List;
 
 public class Window extends Tools{
 
+    protected int rerun;
 
     public void askWindow(List<Plants> plantorna){
 
@@ -23,7 +24,6 @@ public class Window extends Tools{
                         JOptionPane.showMessageDialog(null, "Du måste lägga in ett value");
                         continue;
                     }
-
                     if(height <= 0){
                         JOptionPane.showMessageDialog(null, "Plantan kan inte vara 0 cm eller negativt value");
                         continue;
@@ -56,7 +56,7 @@ public class Window extends Tools{
 
     public int showWindow(List<Plants> plantorna){
 
-        int rerun = 0;
+        rerun = 0;
 
         while (true) {
 

@@ -20,8 +20,6 @@ public class Program extends Window{
         plantorna.add(new Palmtree("Laura", 500));
         plantorna.add(new Palmtree("Putte", 100));
 
-        int rerun = 0;
-
         do {
 
             askWindow(plantorna);
