@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bb05283-72e5-4a0d-a4cb-9c63b0485e0c" name="Changes" comment="uppgift1 - stavningsfel">
-      <change afterPath="$PROJECT_DIR$/Test/Program/ProgramTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/task1.iml" afterDir="false" />
-    </list>
+    <list default="true" id="8bb05283-72e5-4a0d-a4cb-9c63b0485e0c" name="Changes" comment="Testing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +55,7 @@
       <recent name="Program" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlantsTest">
+  <component name="RunManager" selected="JUnit.PlantsTest.getHeight">
     <configuration name="PlantsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task1" />
       <extension name="coverage">
@@ -71,6 +67,22 @@
       <option name="PACKAGE_NAME" value="Plants" />
       <option name="MAIN_CLASS_NAME" value="Plants.PlantsTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlantsTest.getHeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Plants.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Plants" />
+      <option name="MAIN_CLASS_NAME" value="Plants.PlantsTest" />
+      <option name="METHOD_NAME" value="getHeight" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,22 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToolsTest.showMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Program.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Program" />
-      <option name="MAIN_CLASS_NAME" value="Program.ToolsTest" />
-      <option name="METHOD_NAME" value="showMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WindowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task1" />
       <extension name="coverage">
@@ -140,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlantsTest.getHeight" />
         <item itemvalue="JUnit.PlantsTest" />
         <item itemvalue="JUnit.WindowTest" />
         <item itemvalue="JUnit.ToolsTest.questionMessage" />
         <item itemvalue="JUnit.ToolsTest.optionsMessage" />
-        <item itemvalue="JUnit.ToolsTest.showMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +160,7 @@
       <workItem from="1664622531434" duration="2147000" />
       <workItem from="1664625236661" duration="931000" />
       <workItem from="1664710648190" duration="1621000" />
-      <workItem from="1664714121969" duration="1005000" />
+      <workItem from="1664714121969" duration="1312000" />
     </task>
     <task id="LOCAL-00001" summary="uppgift1">
       <created>1664524153446</created>
@@ -264,7 +260,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664714146456</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="testa la till TEST">
+      <created>1664715149779</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664715149779</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Testing">
+      <created>1664715257314</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664715257314</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Testing">
+      <created>1664715398542</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664715398542</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +302,8 @@
     <MESSAGE value="uppgift1" />
     <MESSAGE value="uppgift1 - la till enum" />
     <MESSAGE value="uppgift1 - stavningsfel" />
-    <option name="LAST_COMMIT_MESSAGE" value="uppgift1 - stavningsfel" />
+    <MESSAGE value="testa la till TEST" />
+    <MESSAGE value="Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing" />
   </component>
 </project>
