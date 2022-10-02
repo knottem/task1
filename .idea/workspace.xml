@@ -49,17 +49,93 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.WindowTest">
+    <configuration name="ToolsTest.convertLToCl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Program" />
+      <option name="MAIN_CLASS_NAME" value="Program.ToolsTest" />
+      <option name="METHOD_NAME" value="convertLToCl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolsTest.optionsMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Program" />
+      <option name="MAIN_CLASS_NAME" value="Program.ToolsTest" />
+      <option name="METHOD_NAME" value="optionsMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolsTest.questionMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Program" />
+      <option name="MAIN_CLASS_NAME" value="Program.ToolsTest" />
+      <option name="METHOD_NAME" value="questionMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolsTest.showMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Program" />
+      <option name="MAIN_CLASS_NAME" value="Program.ToolsTest" />
+      <option name="METHOD_NAME" value="showMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Program" />
+      <option name="MAIN_CLASS_NAME" value="Program.WindowTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.WindowTest" />
+        <item itemvalue="JUnit.ToolsTest.questionMessage" />
+        <item itemvalue="JUnit.ToolsTest.optionsMessage" />
+        <item itemvalue="JUnit.ToolsTest.showMessage" />
+        <item itemvalue="JUnit.ToolsTest.convertLToCl" />
       </list>
     </recent_temporary>
   </component>
