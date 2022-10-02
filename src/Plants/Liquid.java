@@ -1,8 +1,8 @@
 package Plants;
 
 public enum Liquid {
-    TAP_WATER("Kran vatten", 0.5),
-    MINERAL_WATER("Mineral vatten", 0.02),
+    TAP_WATER("Kranvatten", 0.5),
+    MINERAL_WATER("Mineralvatten", 0.02),
     PROTEIN_LIQUID("Protein dryck", 0.2);
 
     final double amount;

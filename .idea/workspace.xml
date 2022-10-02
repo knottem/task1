@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bb05283-72e5-4a0d-a4cb-9c63b0485e0c" name="Changes" comment="uppgift1">
-      <change afterPath="$PROJECT_DIR$/src/Plants/Liquid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plants/Cactus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plants/Cactus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plants/Carnivorousplant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plants/Carnivorousplant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plants/Palmtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plants/Palmtree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plants/Plants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plants/Plants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plants/PlantsInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plants/PlantsInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Tools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Window.java" afterDir="false" />
-    </list>
+    <list default="true" id="8bb05283-72e5-4a0d-a4cb-9c63b0485e0c" name="Changes" comment="uppgift1 - la till enum" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +64,7 @@
       <workItem from="1664614492144" duration="3025000" />
       <workItem from="1664622531434" duration="2147000" />
       <workItem from="1664625236661" duration="931000" />
-      <workItem from="1664710648190" duration="1400000" />
+      <workItem from="1664710648190" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="uppgift1">
       <created>1664524153446</created>
@@ -160,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664624644307</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="uppgift1 - la till enum">
+      <created>1664712100812</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664712100812</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="uppgift1" />
-    <option name="LAST_COMMIT_MESSAGE" value="uppgift1" />
+    <MESSAGE value="uppgift1 - la till enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="uppgift1 - la till enum" />
   </component>
 </project>
