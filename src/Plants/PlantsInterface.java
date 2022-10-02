@@ -6,4 +6,6 @@ public interface PlantsInterface {
 
     //double changeHeight();
 
+    String getLiquid();
+
 }

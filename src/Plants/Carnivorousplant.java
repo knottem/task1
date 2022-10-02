@@ -2,18 +2,19 @@ package Plants;
 
 public class Carnivorousplant extends Plants implements PlantsInterface {
 
-
-    final double protein = 0.2;
+    Liquid liquid = Liquid.PROTEIN_LIQUID;
 
     public Carnivorousplant(String name, double heightCm) {
         super(name, heightCm);
-        types = "Köttätandeväxt";
-        liquidType = "Protein dryck";
+        types = "Köttätande växt";
     }
 
     @Override
     public double calculateLiquid() {
-        return 0.1 + (protein * (height / 100));
+        return 0.1 + (liquid.amount * (height / 100));
     }
 
+    public String getLiquid() {
+        return liquid.name;
+    }
 }

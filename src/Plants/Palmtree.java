@@ -2,17 +2,20 @@ package Plants;
 
 public class Palmtree extends Plants implements PlantsInterface {
 
-    final double liquid = 0.5;
+    Liquid liquid = Liquid.TAP_WATER;
 
     public Palmtree(String name, double heightCm) {
         super(name, heightCm);
         types = "Palm";
-        liquidType = "Kranvatten";
     }
 
     @Override
     public double calculateLiquid(){
-        return liquid*(height/100);
+        return liquid.amount*(height/100);
     }
 
+    @Override
+    public String getLiquid() {
+        return liquid.name;
+    }
 }

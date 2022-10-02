@@ -13,7 +13,7 @@ public class Window extends Tools{
 
         while(true) {
             int answer = optionsMessage("Plant väljare","Vad vill du göra?", "Lägga till planta?","Ta bort planta?", "Visa plantorna");
-            //int answer = JOptionPane.showConfirmDialog(null, "Hej vill du lägga till en planta eller använda dem som redan finns?\n YES för att lägga till, NO för att gå till nuvarande listan","Title", JOptionPane.YES_NO_OPTION);
+
                 if(answer == 0){
 
                     String name = JOptionPane.showInputDialog(null,"Vad heter Plantan?");
