@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bb05283-72e5-4a0d-a4cb-9c63b0485e0c" name="Changes" comment="uppgift1 - la till enum" />
+    <list default="true" id="8bb05283-72e5-4a0d-a4cb-9c63b0485e0c" name="Changes" comment="uppgift1 - stavningsfel">
+      <change afterPath="$PROJECT_DIR$/Test/Program/ProgramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/task1.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +14,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -28,13 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "junit.framework.TestCase",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -65,6 +79,7 @@
       <workItem from="1664622531434" duration="2147000" />
       <workItem from="1664625236661" duration="931000" />
       <workItem from="1664710648190" duration="1621000" />
+      <workItem from="1664714121969" duration="1005000" />
     </task>
     <task id="LOCAL-00001" summary="uppgift1">
       <created>1664524153446</created>
@@ -157,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664712100812</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="uppgift1 - stavningsfel">
+      <created>1664714146456</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664714146456</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +199,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="uppgift1" />
     <MESSAGE value="uppgift1 - la till enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="uppgift1 - la till enum" />
+    <MESSAGE value="uppgift1 - stavningsfel" />
+    <option name="LAST_COMMIT_MESSAGE" value="uppgift1 - stavningsfel" />
   </component>
 </project>
