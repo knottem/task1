@@ -9,9 +9,12 @@ public class Tools {
 
     DecimalFormat decimalFormat = new DecimalFormat("#.00");
 
+
+   //konverterar L till CL, onödig då jag endast använder den på ett ställe.
    protected double convertLToCl(double amount){
         return amount * 100;
     }
+
 
    protected void showMessage(Plants plant){
 
@@ -38,7 +41,7 @@ public class Tools {
    protected int optionsMessage(String Title, String question, String option1, String option2, String option3){
 
         Object[] options = { option1, option2, option3};
-        return JOptionPane.showOptionDialog(null, question,Title, JOptionPane.YES_NO_OPTION,JOptionPane.PLAIN_MESSAGE,null, options, null);
+        return JOptionPane.showOptionDialog(null, question,Title, JOptionPane.YES_NO_OPTION,JOptionPane.PLAIN_MESSAGE,null, options, options[0]);
     }
 
    protected int questionMessage(List<Plants> plantorna){
@@ -54,7 +57,7 @@ public class Tools {
         try {
             choice = JOptionPane.showInputDialog(null, "Välj Plantan", "Plant väljare", JOptionPane.QUESTION_MESSAGE, null, plants, plants[0]);
         }catch (ArrayIndexOutOfBoundsException e){
-            JOptionPane.showMessageDialog(null,"Alla plantor är bortagna");
+            JOptionPane.showMessageDialog(null,"Alla plantor är borttagna");
             System.exit(0);
         }
 

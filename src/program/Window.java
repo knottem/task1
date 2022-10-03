@@ -33,13 +33,13 @@ public class Window extends Tools{
                     String[] plantType = new String[]{"Kaktus", "Köttätande växt", "Palm"};
                     Object choice = JOptionPane.showInputDialog(null, "Välj Plant typen", "Plant väljare", JOptionPane.QUESTION_MESSAGE, null, plantType, plantType[0]);
 
-                        if(choice == "Kaktus"){
+                        if(choice == plantType[0]){
                             plantorna.add(new Cactus(name, height));
                         }
-                        else if(choice == "Köttätande växt"){
+                        else if(choice == plantType[1]){
                             plantorna.add(new Carnivorousplant(name, height));
                         }
-                        else if(choice == "Palm"){
+                        else if(choice == plantType[2]){
                             plantorna.add(new Palmtree(name, height));
                         }
                         else{
@@ -48,9 +48,6 @@ public class Window extends Tools{
                 }
                 else if(answer == 1){
                     int i = questionMessage(plantorna);
-                    if(i == -1){
-                        break;
-                    }
                     plantorna.remove(i);
                 }
                 else if(answer == 2){
@@ -62,7 +59,7 @@ public class Window extends Tools{
         }
     }
 
-    public int showWindow(List<Plants> plantorna){
+    public int rerunWindow(List<Plants> plantorna){
 
         rerun = 0;
 
