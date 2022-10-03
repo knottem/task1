@@ -42,14 +42,21 @@ public class Tools {
     }
 
    protected int questionMessage(List<Plants> plantorna){
+
         String[] plants = new String[plantorna.size()];
+        Object choice = null;
 
         for (int i = 0; i < plantorna.size(); i++) {
             String test = plantorna.get(i).getName() + " - " + plantorna.get(i).getTypes();
             plants[i] = test;
         }
 
-        Object choice = JOptionPane.showInputDialog(null, "Välj Plantan", "Plant väljare", JOptionPane.QUESTION_MESSAGE, null, plants, plants[0]);
+        try {
+            choice = JOptionPane.showInputDialog(null, "Välj Plantan", "Plant väljare", JOptionPane.QUESTION_MESSAGE, null, plants, plants[0]);
+        }catch (ArrayIndexOutOfBoundsException e){
+            JOptionPane.showMessageDialog(null,"Alla plantor är bortagna");
+            System.exit(0);
+        }
 
         int j = 0;
         for (int i = 0; i < plantorna.size(); i++) {

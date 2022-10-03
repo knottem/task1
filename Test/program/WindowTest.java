@@ -18,6 +18,7 @@ class WindowTest extends TestCase {
 
         assert(Objects.equals(new Cactus(name, height).getName(), "Apan"));
         assert(new Carnivorousplant(name, height).getHeight() == 100);
+
         assert(Objects.equals(new Palmtree(name, height).getLiquid(), "Kranvatten"));
 
     }

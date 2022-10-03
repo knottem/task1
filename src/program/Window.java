@@ -48,6 +48,9 @@ public class Window extends Tools{
                 }
                 else if(answer == 1){
                     int i = questionMessage(plantorna);
+                    if(i == -1){
+                        break;
+                    }
                     plantorna.remove(i);
                 }
                 else if(answer == 2){

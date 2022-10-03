@@ -11,10 +11,12 @@ import java.util.List;
 
 public class Program extends Window{
 
+    //Skapar List för alla mina plants
     protected List<Plants> plantorna = new ArrayList<>();
 
     public Program() {
 
+        //Lägger in varje plant som redan finns i arraylist.
         plantorna.add(new Cactus("Igge", 20));
         plantorna.add(new Carnivorousplant("Meatloaf", 70));
         plantorna.add(new Palmtree("Laura", 500));
@@ -22,7 +24,10 @@ public class Program extends Window{
 
         do {
 
+            //Frågar om man vill lägga till, ta bort eller visa själva listan av plants
             askWindow(plantorna);
+
+
             rerun = showWindow(plantorna);
 
         }while(rerun == 1);
