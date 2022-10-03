@@ -11,7 +11,7 @@ public class Carnivorousplant extends Plants implements PlantsInterface {
 
     @Override
     public double calculateLiquid() {
-        return 0.1 + (liquid.amount * (height / 100));
+        return (((height/100) * liquid.amount) + 0.1);
     }
 
     public String getLiquid() {

@@ -3,23 +3,36 @@ package plants;
 import junit.framework.TestCase;
 import org.junit.jupiter.api.Test;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.Objects;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class CarnivorousplantTest extends TestCase {
 
-    Carnivorousplant p = new Carnivorousplant("George", 70);
+    Carnivorousplant a = new Carnivorousplant("George", 70);
+    Carnivorousplant b = new Carnivorousplant("Jacob", 0);
+    Carnivorousplant c = new Carnivorousplant("Jacob", 100);
+    Carnivorousplant d = new Carnivorousplant("Jacob", 700);
+
+    BigDecimal cd = BigDecimal.valueOf(c.calculateLiquid()).setScale(2, RoundingMode.HALF_DOWN);
+    BigDecimal dd = BigDecimal.valueOf(d.calculateLiquid()).setScale(2, RoundingMode.HALF_DOWN);
+
 
     @Test
     void calculateLiquid() {
-        assert(p.calculateLiquid() == 0.24);
+        assert(a.calculateLiquid() == 0.24);
+        assert(b.calculateLiquid() == 0.1);
+        assert(cd.doubleValue() == 0.3);
+        assert(dd.doubleValue() == 1.50);
     }
 
     @Test
     void getLiquid() {
-        assert(!Objects.equals(p.getLiquid(), "Mineralvatten"));
-        assert(Objects.equals(p.getLiquid(), "Protein dryck"));
-        assert(!Objects.equals(p.getLiquid(), "Kranvatten"));
+        assert(!Objects.equals(a.getLiquid(), "Mineralvatten"));
+        assert(Objects.equals(a.getLiquid(), "Protein dryck"));
+        assert(!Objects.equals(a.getLiquid(), "Kranvatten"));
     }
 }

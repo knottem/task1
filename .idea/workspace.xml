@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bb05283-72e5-4a0d-a4cb-9c63b0485e0c" name="Changes" comment="La till testing men tomma">
-      <change afterPath="$PROJECT_DIR$/Test/plants/CactusTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/plants/CarnivorousplantTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/plants/PalmtreeTest.java" afterDir="false" />
+    <list default="true" id="8bb05283-72e5-4a0d-a4cb-9c63b0485e0c" name="Changes" comment="fixade lite testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Plants/PlantsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/plants/PlantsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Program/ToolsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/program/ToolsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Program/WindowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/program/WindowTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plants/Cactus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plants/Cactus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plants/Carnivorousplant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plants/Carnivorousplant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plants/Liquid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plants/Liquid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plants/Palmtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plants/Palmtree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plants/Plants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plants/Plants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plants/PlantsInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plants/PlantsInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Tools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/plants/CactusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/plants/CactusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/plants/CarnivorousplantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/plants/CarnivorousplantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plants/Carnivorousplant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plants/Carnivorousplant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +65,30 @@
       <recent name="Program" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ToolsTest.showMessage">
+  <component name="RunManager" selected="JUnit.CarnivorousplantTest.calculateLiquid">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="task1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CactusTest.calculateLiquid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="plants.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="plants" />
+      <option name="MAIN_CLASS_NAME" value="plants.CactusTest" />
+      <option name="METHOD_NAME" value="calculateLiquid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarnivorousplantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task1" />
       <extension name="coverage">
@@ -94,33 +104,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToolsTest.convertLToCl (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarnivorousplantTest.calculateLiquid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="program.*" />
+          <option name="PATTERN" value="plants.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="program" />
-      <option name="MAIN_CLASS_NAME" value="program.ToolsTest" />
-      <option name="METHOD_NAME" value="convertLToCl(double)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToolsTest.convertLToCl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="program.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="program" />
-      <option name="MAIN_CLASS_NAME" value="program.ToolsTest" />
-      <option name="METHOD_NAME" value="convertLToCl" />
+      <option name="PACKAGE_NAME" value="plants" />
+      <option name="MAIN_CLASS_NAME" value="plants.CarnivorousplantTest" />
+      <option name="METHOD_NAME" value="calculateLiquid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,29 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowTest.askWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="program.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="program" />
-      <option name="MAIN_CLASS_NAME" value="program.WindowTest" />
-      <option name="METHOD_NAME" value="askWindow" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ToolsTest.showMessage" />
-        <item itemvalue="JUnit.ToolsTest.convertLToCl" />
-        <item itemvalue="JUnit.ToolsTest.convertLToCl (1)" />
-        <item itemvalue="JUnit.WindowTest.askWindow" />
+        <item itemvalue="JUnit.CarnivorousplantTest.calculateLiquid" />
         <item itemvalue="JUnit.CarnivorousplantTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CactusTest.calculateLiquid" />
+        <item itemvalue="JUnit.ToolsTest.showMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +164,7 @@
       <workItem from="1664710648190" duration="1621000" />
       <workItem from="1664714121969" duration="2338000" />
       <workItem from="1664729498324" duration="79000" />
-      <workItem from="1664789989825" duration="3217000" />
+      <workItem from="1664789989825" duration="5735000" />
     </task>
     <task id="LOCAL-00001" summary="uppgift1">
       <created>1664524153446</created>
@@ -314,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664715727631</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fixade lite testing">
+      <created>1664793338811</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664793338811</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +323,12 @@
     <MESSAGE value="testa la till TEST" />
     <MESSAGE value="Testing" />
     <MESSAGE value="La till testing men tomma" />
-    <option name="LAST_COMMIT_MESSAGE" value="La till testing men tomma" />
+    <MESSAGE value="fixade lite testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixade lite testing" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/task1$CarnivorousplantTest_calculateLiquid.ic" NAME="CarnivorousplantTest.calculateLiquid Coverage Results" MODIFIED="1664794970857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>plants.*</FILTER>
+    </SUITE>
   </component>
 </project>

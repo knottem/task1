@@ -7,17 +7,19 @@ import java.util.Objects;
 
 class CactusTest extends TestCase {
 
-    public Cactus cactus = new Cactus("ubbe", 20);
+    Cactus c = new Cactus("ubbe", 20);
+    Cactus d = new Cactus("ge", 2000000000);
 
     @Test
     void calculateLiquid() {
-        assert(cactus.calculateLiquid() == 0.02);
+        assert(c.calculateLiquid() == 0.02);
+        assert(d.calculateLiquid() == 0.02);
     }
 
     @Test
     void getLiquid() {
-        assert(Objects.equals(cactus.getLiquid(), "Mineralvatten"));
-        assert(!Objects.equals(cactus.getLiquid(), "Protein dryck"));
-        assert(!Objects.equals(cactus.getLiquid(), "Kranvatten"));
+        assert(Objects.equals(c.getLiquid(), "Mineralvatten"));
+        assert(!Objects.equals(c.getLiquid(), "Protein dryck"));
+        assert(!Objects.equals(c.getLiquid(), "Kranvatten"));
     }
 }
