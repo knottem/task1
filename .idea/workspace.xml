@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bb05283-72e5-4a0d-a4cb-9c63b0485e0c" name="Changes" comment="Testing" />
+    <list default="true" id="8bb05283-72e5-4a0d-a4cb-9c63b0485e0c" name="Changes" comment="La till testing men tomma">
+      <change afterPath="$PROJECT_DIR$/Test/plants/CactusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/plants/CarnivorousplantTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/plants/PalmtreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Plants/PlantsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/plants/PlantsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Program/ToolsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/program/ToolsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Program/WindowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/program/WindowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plants/Cactus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plants/Cactus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plants/Carnivorousplant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plants/Carnivorousplant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plants/Liquid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plants/Liquid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plants/Palmtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plants/Palmtree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plants/Plants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plants/Plants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plants/PlantsInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/plants/PlantsInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Window.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +41,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2FTlGyGIC6JADvydizFoohWdWJD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,7 +63,8 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "junit.framework.TestCase",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,96 +73,98 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="plants" />
       <recent name="Plants" />
       <recent name="Program" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlantsTest.getHeight">
-    <configuration name="PlantsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ToolsTest.showMessage">
+    <configuration name="CarnivorousplantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Plants.*" />
+          <option name="PATTERN" value="plants.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Plants" />
-      <option name="MAIN_CLASS_NAME" value="Plants.PlantsTest" />
+      <option name="PACKAGE_NAME" value="plants" />
+      <option name="MAIN_CLASS_NAME" value="plants.CarnivorousplantTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlantsTest.getHeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToolsTest.convertLToCl (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Plants.*" />
+          <option name="PATTERN" value="program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Plants" />
-      <option name="MAIN_CLASS_NAME" value="Plants.PlantsTest" />
-      <option name="METHOD_NAME" value="getHeight" />
+      <option name="PACKAGE_NAME" value="program" />
+      <option name="MAIN_CLASS_NAME" value="program.ToolsTest" />
+      <option name="METHOD_NAME" value="convertLToCl(double)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToolsTest.optionsMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToolsTest.convertLToCl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Program.*" />
+          <option name="PATTERN" value="program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Program" />
-      <option name="MAIN_CLASS_NAME" value="Program.ToolsTest" />
-      <option name="METHOD_NAME" value="optionsMessage" />
+      <option name="PACKAGE_NAME" value="program" />
+      <option name="MAIN_CLASS_NAME" value="program.ToolsTest" />
+      <option name="METHOD_NAME" value="convertLToCl" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToolsTest.questionMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToolsTest.showMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Program.*" />
+          <option name="PATTERN" value="program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Program" />
-      <option name="MAIN_CLASS_NAME" value="Program.ToolsTest" />
-      <option name="METHOD_NAME" value="questionMessage" />
+      <option name="PACKAGE_NAME" value="program" />
+      <option name="MAIN_CLASS_NAME" value="program.ToolsTest" />
+      <option name="METHOD_NAME" value="showMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WindowTest.askWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Program.*" />
+          <option name="PATTERN" value="program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Program" />
-      <option name="MAIN_CLASS_NAME" value="Program.WindowTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="program" />
+      <option name="MAIN_CLASS_NAME" value="program.WindowTest" />
+      <option name="METHOD_NAME" value="askWindow" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlantsTest.getHeight" />
-        <item itemvalue="JUnit.PlantsTest" />
-        <item itemvalue="JUnit.WindowTest" />
-        <item itemvalue="JUnit.ToolsTest.questionMessage" />
-        <item itemvalue="JUnit.ToolsTest.optionsMessage" />
+        <item itemvalue="JUnit.ToolsTest.showMessage" />
+        <item itemvalue="JUnit.ToolsTest.convertLToCl" />
+        <item itemvalue="JUnit.ToolsTest.convertLToCl (1)" />
+        <item itemvalue="JUnit.WindowTest.askWindow" />
+        <item itemvalue="JUnit.CarnivorousplantTest" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +184,9 @@
       <workItem from="1664622531434" duration="2147000" />
       <workItem from="1664625236661" duration="931000" />
       <workItem from="1664710648190" duration="1621000" />
-      <workItem from="1664714121969" duration="1312000" />
+      <workItem from="1664714121969" duration="2338000" />
+      <workItem from="1664729498324" duration="79000" />
+      <workItem from="1664789989825" duration="3217000" />
     </task>
     <task id="LOCAL-00001" summary="uppgift1">
       <created>1664524153446</created>
@@ -281,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664715398542</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="La till testing men tomma">
+      <created>1664715727631</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664715727631</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +337,7 @@
     <MESSAGE value="uppgift1 - stavningsfel" />
     <MESSAGE value="testa la till TEST" />
     <MESSAGE value="Testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing" />
+    <MESSAGE value="La till testing men tomma" />
+    <option name="LAST_COMMIT_MESSAGE" value="La till testing men tomma" />
   </component>
 </project>

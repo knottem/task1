@@ -1,4 +1,4 @@
-package Plants;
+package plants;
 
 public class Carnivorousplant extends Plants implements PlantsInterface {
 

@@ -1,9 +1,9 @@
-package Program;
+package program;
 
-import Plants.Cactus;
-import Plants.Carnivorousplant;
-import Plants.Palmtree;
-import Plants.Plants;
+import plants.Cactus;
+import plants.Carnivorousplant;
+import plants.Palmtree;
+import plants.Plants;
 
 import java.util.ArrayList;
 import java.util.List;

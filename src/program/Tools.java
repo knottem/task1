@@ -1,6 +1,6 @@
-package Program;
+package program;
 
-import Plants.Plants;
+import plants.Plants;
 import javax.swing.*;
 import java.text.DecimalFormat;
 import java.util.List;
@@ -32,7 +32,7 @@ public class Tools {
        }
 
        JOptionPane.showMessageDialog(null, "Planta: " + plant.getName() + "\nTyp: " +  plant.getTypes()
-               + "\nHöjd: "+  height + "\nbehöver dagligen:\n" + liquid + plant.getLiquid());  //plant.getLiquidType())
+               + "\nHöjd: "+  height + "\nbehöver dagligen:\n" + liquid + plant.getLiquid());
     }
 
    protected int optionsMessage(String Title, String question, String option1, String option2, String option3){

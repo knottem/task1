@@ -1,6 +1,6 @@
-package Program;
+package program;
 
-import Plants.*;
+import plants.*;
 
 import javax.swing.*;
 import java.util.List;

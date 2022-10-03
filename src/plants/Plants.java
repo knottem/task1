@@ -1,4 +1,4 @@
-package Plants;
+package plants;
 
 public abstract class Plants implements PlantsInterface {
 

@@ -1,4 +1,4 @@
-package Plants;
+package plants;
 
 public enum Liquid {
     TAP_WATER("Kranvatten", 0.5),

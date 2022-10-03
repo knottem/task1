@@ -1,4 +1,4 @@
-package Plants;
+package plants;
 
 
 public class Cactus extends Plants implements PlantsInterface {

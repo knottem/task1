@@ -1,4 +1,4 @@
-package Plants;
+package plants;
 
 public class Palmtree extends Plants implements PlantsInterface {
 
