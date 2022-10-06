@@ -7,14 +7,7 @@ import java.util.List;
 
 public class Tools {
 
-    DecimalFormat decimalFormat = new DecimalFormat("#.00");
-
-
-   //konverterar L till CL, onödig då jag endast använder den på ett ställe.
-   protected double convertLToCl(double amount){
-        return amount * 100;
-    }
-
+   DecimalFormat decimalFormat = new DecimalFormat("#.0");
 
    protected void showMessage(Plants plant){
 
@@ -25,7 +18,7 @@ public class Tools {
             liquid = (decimalFormat.format(plant.calculateLiquid()) + " Liter ");
        }
        else{
-            liquid = (decimalFormat.format(convertLToCl(plant.calculateLiquid())) + " cl ");
+            liquid = (decimalFormat.format(100*plant.calculateLiquid()) + " cl ");
        }
        if(plant.getHeight() >= 100){
            height = ((plant.getHeight()/100) + " m");
@@ -36,7 +29,7 @@ public class Tools {
 
        JOptionPane.showMessageDialog(null, "Planta: " + plant.getName() + "\nTyp: " +  plant.getTypes()
                + "\nHöjd: "+  height + "\nbehöver dagligen:\n" + liquid + plant.getLiquid());
-    }
+   }
 
    protected int optionsMessage(String Title, String question, String option1, String option2, String option3){
 

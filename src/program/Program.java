@@ -27,7 +27,7 @@ public class Program extends Window{
             //Frågar om man vill lägga till, ta bort eller visa själva listan av plants
             askWindow(plantorna);
 
-            //Frågar om man vill köra om programmet, isåfall returnar man en int av värdet 1
+            //Frågar om man vill köra om programmet, isåfall returner man en int av värdet 1
             rerun = rerunWindow(plantorna);
 
         }while(rerun == 1);
