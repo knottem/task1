@@ -2,6 +2,8 @@ package plants;
 
 public abstract class Plants implements PlantsInterface {
 
+    //inkapsling här men protected istället för private så mina plantklasser kan använda dem.
+
     protected double height;
     protected String name;
     protected String types;
